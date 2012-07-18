@@ -36,6 +36,10 @@ production 環境の場合のみ、 `rescue_from StandardError, with: :rescue_fr
 
 デフォルトは発生した例外を再度 raise
 
+エラーログは例えば以下のように確認する
+
+    $ grep -f log/error.log log/production.log -A 100 -B 100
+
 ### 生成されるログ
 
 エラーログは logger で出力する
