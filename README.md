@@ -80,7 +80,7 @@ logger は通常のログファイルに書き込むので、
 
 エラーログに出力するハッシュコードを生成する
 
-デフォルトは `==#{SecureRandom.hex(20)}== #{Time.now}`
+デフォルトは `"==#{SecureRandom.hex(20)}== #{Time.now}"`
 
 ### rescue_from_standard_error_log
 
