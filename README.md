@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-	class Posts::ApplicationController < ActionController::Base
+	class Posts < ActionController::Base
 	  include Ans::HandleStandardError
 
 	  private
